@@ -19,7 +19,7 @@ if (person == null || person == "") {
   alert( "Hello! " + person + ", welcome to the kilometres to miles converter");
 } 
 
-function App() {
+function KmToMiles() {
   const [kilometre, setKilometre] = useState();
   function handlechange(j){
     setKilometre(j.target.value);
@@ -38,5 +38,4 @@ function App() {
   );
 }
 
-export default App;
-export { Converter }
+export default KmToMiles;
