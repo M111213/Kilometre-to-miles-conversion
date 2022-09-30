@@ -16,7 +16,7 @@ const person = prompt(" Enter your name");
 if (person == null || person == "") {
   alert( "You cancelled the prompt.");
 } else {
-  alert( "Hello! " + person + ", welcome to the kilometres to miles converter");
+  alert( "Hello! " + person + ", welcome in kilometres to miles converter system");
 } 
 
 function KmToMiles() {
